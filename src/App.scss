@@ -1,0 +1,47 @@
+.all {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    font-size: 2.2rem;
+    color: white;
+}
+div .numberbutton {
+    background-color: blue;   
+    
+}
+
+
+
+.numberbutton:nth-child(10) {
+    width: 10rem;
+    height: 5rem;
+    border-radius: 40%;
+    background-color: blue;
+}
+
+.specialbutton {
+    background-color: #0066cc;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+.operatorbutton {
+    background-color: #0099cc;
+    
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.container {
+    background-color: red;
+    height: 40rem;
+    width: 30rem;
+    justify-content: center;
+    display: flex;
+    border-radius: 10%;
+}
+
